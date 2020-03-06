@@ -1,0 +1,80 @@
+body {
+  background-color: #272324;
+}
+
+.app-container {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.app-title {
+  color: #feba57;
+  font-family: "Nixie One", cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+i.clipboard-icon.fa-clipboard-list.fas {
+  color: #83b0b5;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  border: none;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 20px;
+  width: 315px;
+  height: 10px;
+  color: white;
+  background: none;
+  font-family: "PT Sans", sans-serif;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+._button {
+  padding: 20px;
+  background-color: #272324;
+  border: none;
+  font-size: 2.5em;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+._button:hover {
+  color: #83b0b5;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: #fff;
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25em;
+}
+
+.todo-item__icon {
+  color: red;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.checkbox__icon {
+  transform: scale(2);
+  margin-left: 40px;
+}
+
+/*# sourceMappingURL=app-32a9689225c5aa0b03da.map*/
